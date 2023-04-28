@@ -84,7 +84,7 @@ corr_heatmap(df)
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.model_selection import cross_val_score, train_test_split, GridSearchCV
 from sklearn.pipeline import make_pipeline
-#from xgboost import XGBRegressor
+# from xgboost import XGBRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
